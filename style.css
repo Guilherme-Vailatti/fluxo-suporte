@@ -381,32 +381,32 @@ img {
 		top: 94px;
         bottom: auto;
         left: -20px; 
-		transform: rotateX(55deg) rotateZ(46deg);
+		transform: rotateX(57deg) rotateZ(45deg);
 		perspective: 1000px; 
 	   }
 	   
-	   /*ABERTURA CHAMADO / ZENDESK*/
+	   /*ABERTURA de ticket / ZENDESK*/
 	   
     .section-main .content-main-infografico .item-2 {
       margin-left: 60px;
       margin-top: -160px; }
       .section-main .content-main-infografico .item-2 .pink {
 	  margin-left: -90px;
-      margin-top: -20px; 
-      transform: rotateX(-56deg) rotateZ(-45deg);
+      margin-top: -25px; 
+      transform: rotateX(-57deg) rotateZ(-45deg);
 	  perspective: 100px;
       font-size: 23px;
       line-height:1;	  }
 		
-		/*BANCO DE SOLUÇÕES / SARA*/
+		/*BASE DE CONHECIMENTO / SARA*/
 		
     .section-main .content-main-infografico .item-3 {
       margin-left: -150px;
       margin-top: -90px; }
 	  .section-main .content-main-infografico .item-3 .pink {
-      margin-left: -97px;
-      margin-top: 5px; 
-	  transform: rotateX(-56deg) rotateZ(-45deg);
+      margin-left: -109px;
+      margin-top: -10px; 
+	  transform: rotateX(-57deg) rotateZ(-45deg);
 	  perspective: 100px;
 	  font-size: 24px;
       line-height:1;	  } 
@@ -427,8 +427,8 @@ img {
       margin-top: 10px; }
 	 .section-main .content-main-infografico .item-4 .pink {
       margin-left: -140px;
-      margin-top: 100px; 
-	  transform: rotateX(-56deg) rotateZ(-45deg);
+      margin-top: 90px; 
+	  transform: rotateX(-57deg) rotateZ(-45deg);
 	  perspective: 100px; 
 	  font-size:24px; } 
 	  .section-main .content-main-infografico .item-4 .icon-title.top {
