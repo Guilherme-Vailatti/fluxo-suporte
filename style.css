@@ -2,7 +2,7 @@
    v2.0-modified | 20110126
    License: none (public domain)
 */
-
+/*
 @media (max-width: 1309px) {
   .section-desktop {
     transform: scale(0.9); } }
@@ -106,7 +106,7 @@
 @media (max-height: 599px) {
   .section-desktop > .container:first-child {
     transform: scale(0.6) translateY(0%); } }
-
+*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -172,7 +172,7 @@ img {
   max-width: 100%; }
 
 .senior-logo {
-  display: block;
+  display: table;
   position: absolute;
   bottom: 100px;
   right: 100px;
@@ -195,7 +195,7 @@ img {
 .orange-line {
   width: 40px;
   height: 7px;
-  background-color: #e46414; }
+  background-color: #23aa35; }
 
 .modal-align .orange-line {
   margin-bottom: 10px;
@@ -253,6 +253,7 @@ img {
 
 
 .bkg-fixed-opacity {
+  max-width: 100%;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -292,7 +293,7 @@ img {
   position: relative;
   margin: 0;
   padding: 0; }
-  .section-main .container {
+ /* .section-main .container {
     max-width: 1140px;
     width: 100%;
     margin: 0 auto;
@@ -300,6 +301,8 @@ img {
   .section-main .content-main-infografico {
     position: relative;
     height: 805px; }
+
+    */
     .section-main .content-main-infografico p {
       font-family: "jaf-domus";
       font-size: 18px;
@@ -513,7 +516,7 @@ img {
 	   transform: rotateX(55deg) rotateZ(46deg);
 	   perspective: 1000px; 
 	   font-size:25px;} 
-	 }
+	 
       .section-main .content-main-infografico .item-12 .pink {
         transform: rotateX(60deg) rotateZ(45deg);
 		perspective: 1000px; } 
@@ -531,6 +534,18 @@ img {
 .section-mobile {
   display: none;
   padding-bottom: 50px; }
+
+
+  .bg-linhas { 
+    width: 100%;
+    display: table;
+  
+        pointer-events: none;
+        padding: 0;
+        margin: 0;
+        width: 1130px;
+        left: 50%;
+        top: 50%; }
 
 /*-------------MODAL--------------*/
 
@@ -567,8 +582,8 @@ img {
           filter: grayscale(1) brightness(10); }
 		  
       .modal-align .modal-container-ext .modal-container-int .saiba-mais {
-        margin-top: 130px;
-        color: #e46414;
+        margin-top: 110px;
+        color: #ffffff;
         display: block;
         text-decoration: none;
         width: 80px; }
